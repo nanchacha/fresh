@@ -3,7 +3,7 @@ import price from './data.js'
 export default function Cart() {
     return (
       <div >
-        <h1 className="title">Cart</h1>
+        <h1 className="cart-title">Cart</h1>
 
         <CartItem/>
         <CartItem/>

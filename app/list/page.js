@@ -9,7 +9,7 @@ export default function List(){
     return(
         <div>
             
-            <h1 className="title"> 상품목록 </h1>
+            <h1 className="cart-title"> 상품목록 </h1>
             {
                 itemList.map((item, order)=>{
                     return (

@@ -1,19 +1,32 @@
 body {
   margin : 0;
-  background : #303030;
-  color: white;
+  background : #FFDFB9;
+  color: black;
+  font-family: -apple-system, InkLipquid, sans-serif;
 }
 
 .title{
   text-align: center;
-  margin-top: 50px;
+  margin-top: 10px;
+  font-size: 100px;
+  color: #A4193D;
 }
 
 .title-sub{
+  margin-top: 100px;
   text-align: center;
 }
 
+.cart-title{
+  text-align: center;
+  margin-top: 100px;
+  font-size: 50px;
+  color: #A4193D;
+  
+}
+
 .food {
+  font-size : 30px;
   text-align: center;
   margin: 20px auto;
   width: 200px;
@@ -24,13 +37,17 @@ body {
 }
 
 .navbar{
-  background: white;
-  padding: 20px;
+  text-align: center;
+  background: #A4193D;
+  padding: 30px;
 }
 
 .navbar a {
-  margin-right: 10px;
+  text-align: center;
+  margin-right: 50px;
   text-decoration: none;
+  color : #FFDFB9;
+  font-size: 30px;
 }
 
 .food-img{
@@ -39,9 +56,28 @@ body {
 }
 
 .cart-item {
+  font-size : 30px;
   padding: 10px;
   display: flex;
   justify-content: space-around;
   border-bottom: 1px solid grey;
   line-height: 0px;
+}
+
+.hero-anime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@font-face {
+  font-family: "InkLipquid";
+  font-weight: 200;
+  src: url("../public/static/font/InkLipquidFonts.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NanumSquareNeo";
+  font-weight: 200;
+  src: url("../public/static/font/NanumSquareNeoOTF-Hv.otf");
 }
